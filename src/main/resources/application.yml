@@ -1,0 +1,11 @@
+server:
+  port: 9999
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: <your-client-id-here>
+            client-secret: <your-client-secret-here>
